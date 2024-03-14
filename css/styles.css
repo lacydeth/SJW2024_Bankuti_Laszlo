@@ -41,14 +41,33 @@ h2 {
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
     margin-bottom: 3rem;
 }
-table {
-    border-spacing: 0;
-}
 #tableTitle {
     background: var(--lightBlue);
     font-family: "Marhey", sans-serif;
+    color: var(--white);
 }
 #tableTitleSec {
     background: var(--darkBlue);
     font-family: "Marhey", sans-serif;
+}
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 10px;
+    box-shadow: 1px 1px 10px #06435f;
+    border-radius: 10px;
+  }
+th, td {
+    padding: 10px;
+    vertical-align: middle;
+    border: 1px solid #06435f;
+}
+th:first-child, td:first-child {
+    font-weight: bold; 
+    text-transform: uppercase;
+    color: var(--darkBlue)!important;
+}
+td {
+    background-color: rgba(18, 131, 185, 0.1)!important;
 }
