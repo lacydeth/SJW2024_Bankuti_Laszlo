@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Marhey:wght@300..700&display=swap');
+:root {
+    --darkBlue: #06435f;
+    --lightBlue: #1283b9;
+    --white: #fff;
+}
+.header {
+    height: 400px;
+    background-image: url("/img/balaton_bg.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header h1 {
+    font-family: "Marhey", sans-serif;
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    color: var(--white);
+}
+.navbar {
+    background-color: var(--darkBlue);
+}
+@media (max-width: 992px) {
+    .header h1 {
+      font-size: 1.5em;
+    }
+}
+h2 {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    font-variant: small-caps;
+    font-family: "Marhey", sans-serif;
+    color: var(--lightBlue)!important;
+}
+.img-with-shadow {
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    margin-bottom: 3rem;
+}
+table {
+    border-spacing: 0;
+}
+#tableTitle {
+    background: var(--lightBlue);
+    font-family: "Marhey", sans-serif;
+}
+#tableTitleSec {
+    background: var(--darkBlue);
+    font-family: "Marhey", sans-serif;
+}
